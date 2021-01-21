@@ -1,0 +1,29 @@
+afinal.c need to be finished
+"+y/x for copy & cut and p for paste 
+v for visual and V for select all including enter
+The math library is named libm.so
+ makepkg -Acs for make installation file from git PKG
+ Add crontab job for backup.sh
+ Umask for a perticular folder add
+ Error redirection : ls *.zip 2> /dev/null
+Hello
+ Need to change default file manager
+ Need to change default text editor in ranger
+ Need to change win+R
+ Need to change Login screen
+ Need to change termite background
+ Add blur effect in termite 
+ Add shortcut for Chrome
+ Add Screenshot shortcuts and Ranger shortcuts in conf
+Use git to upload all the config files
+ Add college gates pictures to github
+ Changer theme for ranger
+ git init
+git add somefile
+git commit -m "initial commit"
+git remote add origin https://github.com/username/new_repo
+ List git files : git whatchanged --diff-filter=A
+ need to understand pl accnt , trail balance etc. etc. 
+Write a script to add all git command in dmenu
+bindsym all shortcuts including tl
+git config --global status.showUntrackedFiles no

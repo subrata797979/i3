@@ -1,0 +1,57 @@
+$mod+1 workspace 1								control+mod4+w exec --no-startup-id arcolinux-welcome-app
+$mod+2 workspace 2								control+mod4+e exec --no-startup-id arcolinux-tweak-tool
+$mod+3 workspace 3								$mod+c exec --no-startup-id conky-toggle
+$mod+4 workspace 4								$mod+Return exec --no-startup-id termite;focus
+$mod+5 workspace 5								semicolon+Return exec --no-startup-id termite;focus
+Mod5+6 workspace 6								control+Shift+Escape exec --no-startup-id xfce4-taskmanager;focus
+$mod+7 workspace 7								control+mod4+m exec --no-startup-id xfce4-settings-manager
+$mod+8 workspace 8								control+mod4+c exec --no-startup-id catfish;focus
+$mod+9 workspace 9								control+mod4+k exec --no-startup-id arcolinux-logout
+$mod+0 workspace 10								control+mod4+l exec --no-startup-id arcolinux-logout
+$mod+Shift+1 move container to workspace 1; workspace 1				control+mod4+r exec --no-startup-id rofi-theme-selector
+$mod+Shift+2 move container to workspace 2; workspace 2				control+mod4+u exec --no-startup-id pavucontrol
+$mod+Shift+3 move container to workspace 3; workspace 3				control+mod4+a exec --no-startup-id xfce4-appfinder
+$mod+Shift+4 move container to workspace 4; workspace 4				control+mod4+p exec --no-startup-id pamac-manager
+$mod+Shift+5 move container to workspace 5; workspace 5				--release $mod+Escape exec xkill
+$mod+Shift+6 move container to workspace 6; workspace 6				$mod+F1 exec --no-startup-id exo-open --launch webbrowser;focus
+$mod+Shift+7 move container to workspace 7; workspace 7				$mod+w exec --no-startup-id exo-open --launch webbrowser;focus
+$mod+Shift+8 move container to workspace 8; workspace 8				control+mod4+f exec --no-startup-id firefox;focus
+$mod+Shift+9 move container to workspace 9; workspace 9				control+mod4+v exec --no-startup-id vivaldi-stable;focus
+$mod+Shift+0 move container to workspace 10; workspace 10			control+mod4+g exec --no-startup-id chromium;focus
+$mod+d exec --no-startup-id dmenu_run -i -nb '#191919' -nf '#fea63c' -sb '#fea6 $mod+F2 exec --no-startup-id atom;focus
+$mod+F11 exec --no-startup-id rofi -show run -fullscreen -font "Noto Sans 13"	$mod+F3 exec --no-startup-id inkscape;focus
+$mod+F12 exec --no-startup-id rofi -show run -font "Noto Sans 13"		$mod+F4 exec --no-startup-id gimp;focus
+control+mod4+X mode "$mode_system"						$mod+F5 exec --no-startup-id meld;focus
+$mod+Shift+e exec --no-startup-id arcolinux-logout				control+mod4+i exec --no-startup-id nitrogen;focus
+$mod+Shift+x exec --no-startup-id arcolinux-logout				$mod+F6 exec --no-startup-id vlc;focus
+$mod+Shift+r restart								$mod+F7 exec --no-startup-id virtualbox;focus
+$mod+Shift+c reload								$mod+F8 exec --no-startup-id thunar;focus
+$mod+Shift+q kill								$mod+Shift+Return exec --no-startup-id thunar;focus
+$mod+Shift+space floating toggle						$mod+Shift+KP_Enter exec --no-startup-id thunar;focus
+$mod+$left focus left								control+mod4+b exec --no-startup-id thunar;focus
+$mod+$down focus down								$mod+F9 exec --no-startup-id evolution;focus
+$mod+$up focus up								$mod+F10 exec --no-startup-id spotify;focus
+$mod+$right focus right								control+mod4+s exec --no-startup-id spotify;focus
+$mod+Left focus left								Print exec --no-startup-id scrot 'ArcoLinux-%Y-%m-%d-%s_screenshot_$wx$h.jpg' -
+$mod+Down focus down								Control+Print exec --no-startup-id xfce4-screenshooter
+$mod+Up focus up								Control+Shift+Print exec --no-startup-id gnome-screenshot -i
+$mod+Right focus right								mod4+t exec --no-startup-id variety -t
+$mod+Shift+$left move left							mod4+n exec --no-startup-id variety -n
+$mod+Shift+$down move down							mod4+Right exec --no-startup-id variety -n
+$mod+Shift+$up move up								mod4+p exec --no-startup-id variety -p
+$mod+Shift+$right move right							mod4+Left exec --no-startup-id variety -p
+$mod+Shift+Left move left							mod4+f exec --no-startup-id variety -f
+$mod+Shift+Down move down							mod4+Up exec --no-startup-id variety --pause
+$mod+Shift+Up move up								mod4+Down exec --no-startup-id variety --resume
+$mod+Shift+Right move right							mod4+Shift+n exec --no-startup-id variety -n && wal -i $(cat $HOME/.config/vari
+Mod4+Tab workspace next								mod4+Shift+p exec --no-startup-id variety -p && wal -i $(cat $HOME/.config/vari
+Mod4+Shift+Tab workspace prev							mod4+Shift+t exec --no-startup-id variety -t && wal -i $(cat $HOME/.config/vari
+$mod+Tab workspace back_and_forth						mod4+Shift+u exec --no-startup-id wal -i $(cat $HOME/.config/variety/wallpaper/
+$mod+Shift+h split h								$mod+b bar mode toggle
+$mod+v split v									$mod+shift+b exec --no-startup-id i3-msg border toggle
+$mod+f fullscreen toggle							$mod+t border normal
+$mod+s layout stacking								$mod+y border 1pixel
+$mod+z layout tabbed								$mod+u border none
+$mod+e layout toggle split							$mod+Shift+g mode "$mode_gaps"
+$mod+space focus mode_toggle							control+mod4+o exec --no-startup-id ~/.config/i3/scripts/picom-toggle.sh
+$mod+r mode "resize"
