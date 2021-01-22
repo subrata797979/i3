@@ -26,4 +26,4 @@ alias u="cd ~/Desktop/kgec/Unix/unix5"
 alias n="cd ~/Desktop/kgec/Numerical/numerical4"
 alias kgec="cd ~/Desktop/kgec"
 alias g="cd ~/Desktop/kgec/git"
-
+export EDITOR=vim

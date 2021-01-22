@@ -118,8 +118,9 @@ set background=dark
 set nowrap
 
 " Show line number
-set number
-set norelativenumber
+" set number
+" set norelativenumber
+set number relativenumber
 
 " Tab and indent
 set autoindent
