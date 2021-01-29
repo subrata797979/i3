@@ -60,7 +60,7 @@ font-5 = Font Awesome 5 Brands:pixelsize=10;2
 
 modules-left = i3
 modules-center = xwindow
-modules-right = xbacklight pulseaudio filesystem memory cpu wlan eth date temperature battery networkspeeddown
+modules-right = networkspeeddown xbacklight pulseaudio filesystem memory cpu wlan eth date temperature battery 
 ;separator = >>
 
 ;tray-position = right
@@ -142,12 +142,12 @@ wrapping-scroll = false
 ; ws-icon-[0-9]+ = <label>;<icon>
 ; NOTE: The <label> needs to match the name of the i3 workspace
 ; Neither <label> nor <icon> can contain a semicolon (;)
-ws-icon-0 = 1;
-ws-icon-1 = 2;
-ws-icon-2 = 3;
-ws-icon-3 = 4;
-ws-icon-4 = 5;
-ws-icon-default = 
+ws-icon-0 = 1;1 
+ws-icon-1 = 2;2 
+ws-icon-2 = 3;3 
+ws-icon-3 = 4;4 
+ws-icon-4 = 5;5 
+ws-icon-default = 0 
 ; Only show workspaces on the same output as the bar
 ;pin-workspaces = true
 
