@@ -476,7 +476,7 @@ exec --no-startup-id nm-applet
 #exec --no-startup-id conky -c ~/.conky/todo/conkyrc-todo
 
 #feh sets wallpaper
-exec --no-startup-id feh --bg-fill ~/Pictures/Wallpapers/relax.png &
+exec --no-startup-id feh --bg-fill ~/Pictures/Wallpapers/mountain.jpg &
 #exec --no-startup-id feh --randomize --bg-fill /usr/share/backgrounds/arcolinux/* &
 
 
