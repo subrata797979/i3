@@ -180,6 +180,25 @@ mode "$mode_system" {
     bindsym Escape mode "default"
 }
 
+################################################################################3
+
+bindsym $mod+Shift+z mode "$mode_shortcut" 
+set $mode_shortcut Shortcut (i) i3, (z) zsh, (r) ranger
+
+mode "$mode_shortcut" {
+    bindsym i exec --no-startup-id ~/.config/i3/scripts/shortcut.sh i3, mode "default"
+    bindsym z exec --no-startup-id ~/.config/i3/scripts/shortcut.sh zsh, mode "default"
+    bindsym r exec --no-startup-id ~/.config/i3/scripts/shortcut.sh ranger, mode "default"
+#    bindsym h exec --no-startup-id ~/.config/i3/scripts/i3exit.sh hibernate, mode "default"
+#    bindsym r exec --no-startup-id ~/.config/i3/scripts/i3exit.sh reboot, mode "default"
+#    bindsym s exec --no-startup-id ~/.config/i3/scripts/i3exit.sh shutdown, mode "default"
+
+#     back to normal: Enter or Escape
+    bindsym Return mode "default"
+    bindsym Escape mode "default"
+}
+
+
 
 # ArcoLinux Logout
 #bindsym $mod+Shift+e exec --no-startup-id arcolinux-logout
@@ -1065,8 +1084,8 @@ bindsym $mod+Ctrl+Shift+Up resize grow height 10 px or 10 ppt
 bindsym $mod+Ctrl+Shift+Down resize shrink height 10 px or 10 ppt
 bindsym $mod+Ctrl+Shift+Left resize grow width 10 px or 10 ppt
 
-##########################3
-# Applications
+#########################
+### Applications  #######
 #########################
 
 # Sublime

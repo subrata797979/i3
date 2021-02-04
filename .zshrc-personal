@@ -22,8 +22,13 @@ alias clg="cd ~/Desktop/kgec"
 alias desktop="cd ~/Desktop"
 alias subu="cd ~/Desktop/subu"
 alias th="thunar"
-alias u="cd ~/Desktop/kgec/Unix/unix6"
+alias u="cd ~/Desktop/kgec/Unix/unix7"
 alias n="cd ~/Desktop/kgec/Numerical/numerical4"
 alias kgec="cd ~/Desktop/kgec"
 alias g="cd ~/Desktop/kgec/git"
 export EDITOR=vim
+
+
+alias t="thunar ."
+alias own="sudo chmod +x ./*"
+alias backup="sudo bash ~/Desktop/kgec/backup.sh"
